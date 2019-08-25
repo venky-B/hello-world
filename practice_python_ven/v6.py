@@ -1,0 +1,12 @@
+print(5 is 5)
+print(3**2)
+print(9^3)
+listeg = ['a','b','a','z']
+print(listeg)
+print('c' in listeg)
+listeg.append("c")
+listeg.remove('b')
+print(listeg)
+print('c' in listeg)
+a = len(listeg)
+print(a)
