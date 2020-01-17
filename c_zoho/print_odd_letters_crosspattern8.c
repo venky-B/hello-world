@@ -37,14 +37,11 @@ int main()
     {
         for(j=0;j<length;j++)
         {
-            if(i == j)
-            {
-                printf("%c",string[i]);
-            }
-            else if(length-1 == i+j)
+            if(i == j || length-1 == i+j)
             {
                 printf("%c",string[j]);
             }
+           
             else
             {
                 printf(" ");
